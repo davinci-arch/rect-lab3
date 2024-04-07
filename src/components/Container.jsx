@@ -1,9 +1,10 @@
+import Pallete from "./Pallete"
 
 export default function Content() {
 
     return (
         <div className="w-full float-left bg-[#3c40c6] block bg-[url('https://flatuicolors.com/static/img/stars-opacity.0979c1.svg')]">
-            <div className="w-[1024px] my-0 mx-auto">
+            <div className="w-[1024px] my-0 mx-auto flex flex-col">
                 <div className="block w-[1024px] text-left relative h-[65px] box-border mb-[15px]">
                     <div className="flex justify-center float-left h-[105px] w-full">
                         <a href="#" className="text-[24px] text-white absolute left-[2px] bottom-[5px] tracking-[2.5px] font-semibold select-none origin-[0%_50%]">FLAT UI COLORS 2</a>
@@ -18,6 +19,21 @@ export default function Content() {
                         </div>
                     </div>
                 </div>
+
+                <div className="grid grid-cols-3 gap-x-12">
+                    <Pallete paletteName="Material UI Colors" />
+                    <Pallete paletteName="Flat UI Colors v1" />
+                    <Pallete paletteName="Flat UI Colors Dutch" />
+                    <Pallete paletteName="Flat UI Colors American" />
+                    <Pallete paletteName="Flat UI Colors Aussie" />
+                    <Pallete paletteName="Flat UI Colors British" />
+                    <Pallete paletteName="Flat UI Colors Spanish" />
+                    <Pallete paletteName="Flat UI Colors Indian" />
+                    <Pallete paletteName="Flat UI Colors French" />
+                </div>
+
+
+
             </div>
         </div>
 
