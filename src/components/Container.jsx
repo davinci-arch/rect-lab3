@@ -1,5 +1,5 @@
 import Pallete from "./Pallete"
-
+import { NavLink } from "react-router-dom"
 export default function Content() {
 
     return (
